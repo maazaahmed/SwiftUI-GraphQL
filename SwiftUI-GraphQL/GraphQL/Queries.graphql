@@ -1,0 +1,12 @@
+
+query SpecificCountry{
+  country(code: "GB"){
+    name
+    native
+    capital
+    currency
+    emoji
+  }
+}
+
+
